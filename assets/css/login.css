@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(rgba(255,255,255,0.75),rgba(0,0,0,0.75)), url("../img/bg-login.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+header img {
+  width: 200px;
+}
+
+header img:hover {
+  transition: 0.75s;
+  transform: scale(1.1);
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255,255,255,0.75);
+  width: auto;
+  height: auto;
+  padding: 0 2rem 0;
+  border-radius: 20px;
+  box-shadow: 0 5pt 20pt rgba(255, 255, 255, 0.2);
+}
+
+.form-box form input[type=checkbox] {
+  border: 1px solid #000;
+  border-radius: 50%;
+}
